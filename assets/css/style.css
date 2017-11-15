@@ -1,0 +1,108 @@
+/*game elements*/
+#movingContainer {
+    top: 0;
+    left: 0;
+    border: 2px solid #737373;
+    height: 600px;
+    position: relative;
+    border-radius: 2px;
+    background-image: url(../img/field2.jpg);
+    background-size: 100%;
+    object-position: bottom  center;
+    z-index: -2;
+}
+#movingElement {
+
+    width: 80px;
+    height: auto;
+    position: absolute;
+    animation-duration: 0.05s;
+}
+
+#missile {
+    z-index: -1;
+    position: absolute;
+    width: 25px;
+    height: 5px;
+    background: -webkit-linear-gradient(left, red,red,red,#ff8000, #ffff00, white);
+    display: none;
+}
+#target {
+    background: white;
+    border: 2px solid red;
+    padding: 4px;
+    left: 1000;
+    z-index: 2;
+    width: 76px !important;
+    height: auto !important;
+    position: absolute;
+}
+
+
+/*style*/
+.section {
+    min-height: 400px;
+    padding: 6em 0 10em 0;
+
+}
+body {
+
+    background: #1a1a1a;
+}
+h1,p,h5 {
+    color: white;
+}
+h3,h2,h4 {
+    color: white;
+}
+.game-title {
+    font-size: 80px;
+}
+.secondary-title {
+    font-size: 60px;
+    padding: 1em;
+    padding-left: 0;
+
+}
+.arrows {
+    width: 50%;
+}
+.light-section {
+    background: rgb(70, 70, 70);
+
+}
+.time-div {
+    min-height: 80px;
+}
+.time-div h1 {
+    margin-bottom: 0;
+
+}
+.special-text {
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+.start-game-button {
+    margin: 4em 0 0 0;
+    width: 30%;
+    text-transform: uppercase;
+}
+.footer {
+    padding: 3em 0 3em 0;
+}
+.banner {
+    background: url(../img/st-back1.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: 0 10%;
+    background-size: 100%;
+}
+.blaster-section {
+    overflow: hidden;
+    background: rgb(220, 220, 220);
+    padding: 2em 0 2em 0;
+}
+.modal p, .modal h5 {
+    color: black;
+}
+/*offscreen images*/
